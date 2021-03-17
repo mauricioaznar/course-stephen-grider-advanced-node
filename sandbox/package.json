@@ -1,0 +1,14 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mod_threads": "SET UV_THREADPOOL_SIZE=2 && node threads.js",
+    "mod_multitask": "SET UV_THREADPOOL_SIZE=2 && node multitask.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
